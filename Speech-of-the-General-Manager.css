@@ -1,0 +1,13 @@
+.u-section-1 .u-sheet-1 {
+  min-height: 400px;
+}@font-face {
+  font-family: 'GE_SS_Two_Bold_1';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/GE_SS_Two_Bold_1.otf);
+}@font-face {
+  font-family: 'GESSTwoLight1';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/GESSTwoLight1.otf);
+}
