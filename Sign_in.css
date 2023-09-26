@@ -117,6 +117,11 @@
   .u-section-1 .u-form-1 {
     width: 340px;
   }
+
+  .u-section-1 .u-text-1 {
+    margin-top: -16px !important;
+    margin-left: 121px;
+  }
 }@font-face {
   font-family: 'GE_SS_Two_Bold_1';
   font-style: normal;

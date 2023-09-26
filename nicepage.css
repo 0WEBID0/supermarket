@@ -8,6 +8,21 @@
   overflow: hidden !important;
  }
 
+ .whatsapp-image {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 9999;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+.whatsapp-image:hover {
+  transform: scale(1.1);
+}
+
 .fr-clearfix::after {
   clear: both;
   display: block;
@@ -41439,6 +41454,7 @@ a.u-link.u-text-hover-grey-90:hover {
         
         
         
+        
         }
 
         /** common-rules **/
@@ -41654,6 +41670,12 @@ a.u-link.u-text-hover-grey-90:hover {
         }
         }
         @media (max-width: 767px) {
+        p:not(.u-text-variant)
+        {
+        font-size: 1rem;
+        }
+        }
+        @media (max-width: 575px) {
         p:not(.u-text-variant)
         {
         font-size: 1rem;
@@ -42790,13 +42812,13 @@ a.u-link.u-text-hover-grey-90:hover {
 } 
 
 .u-footer .u-sheet-1 {
-  min-height: 414px;
+  min-height: 478px;
 }
 
 .u-footer .u-image-1 {
-  width: 176px;
-  height: 124px;
-  margin: 10px auto 0;
+  width: 140px;
+  height: 133px;
+  margin: 22px auto 0;
 }
 
 .u-footer .u-logo-image-1 {
@@ -42805,7 +42827,7 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-footer .u-layout-wrap-1 {
-  margin-top: 11px;
+  margin-top: 16px;
   margin-bottom: 0;
 }
 
@@ -43025,8 +43047,9 @@ a.u-link.u-text-hover-grey-90:hover {
 
   .u-footer .u-position-3 {
     min-height: 178px;
-    margin-right: 20px;
-    width: 223px;
+    width: 303px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .u-footer .u-layout-cell-4 {
@@ -43074,8 +43097,6 @@ a.u-link.u-text-hover-grey-90:hover {
 
   .u-footer .u-position-3 {
     width: 538px;
-    margin-left: auto;
-    margin-right: auto;
   }
 
   .u-footer .u-container-layout-4 {
@@ -43106,7 +43127,6 @@ a.u-link.u-text-hover-grey-90:hover {
 
   .u-footer .u-position-3 {
     margin-right: 0;
-    margin-left: 0;
     width: 340px;
   }
 
