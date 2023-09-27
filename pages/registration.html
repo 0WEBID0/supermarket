@@ -37,51 +37,25 @@
     <div class="u-clearfix u-sheet u-sheet-1">
       <div class="u-form u-white u-form-1">
         <form action="../inc/register_post.php" method="post"
-          class="u-clearfix u-form-spacing-19 u-form-vertical u-inner-form" source="email" name="form"
+          class="u-clearfix u-form-spacing-19 u-form-vertical u-inner-form"
           style="padding: 19px;" redirect="true" redirect-address="../index.html">
 
-          <?php
-          if (isset($email_error)) {
-            echo $email_error;
-          }
-          ?>
 
           <div class="u-form-email u-form-group">
             <label for="email-db6f" class="u-label">البريد الالكترونى</label>
             <input type="email" placeholder="ادخل عنوان بريد الكتروني صحيح" id="email-db6f" name="email"
               class="u-border-none u-grey-15 u-input u-input-rectangle u-radius-10" required="">
           </div>
-
-          <?php
-          if (isset($user_error)) {
-            echo $user_error;
-          }
-          ?>
-
           <div class="u-form-group u-form-name u-form-partition-factor-2 u-form-group-2">
             <label for="name-961f" class="u-label">الاسم الاول</label>
             <input type="text" placeholder="ادخل الاسم الاول" id="name-961f" name="name-1"
               class="u-border-none u-grey-15 u-input u-input-rectangle u-radius-10" required="">
           </div>
-
-          <?php
-          if (isset($userl_error)) {
-            echo $userl_error;
-          }
-          ?>
-
           <div class="u-form-group u-form-name u-form-partition-factor-2 u-form-group-3">
             <label for="name-961f" class="u-label">الاسم الاخر</label>
             <input type="text" placeholder="ادخل الاسم الاخر" id="name-961f" name="name-2"
               class="u-border-none u-grey-15 u-input u-input-rectangle u-radius-10" required="">
           </div>
-
-          <?php
-          if (isset($phone_error)) {
-            echo $phone_error;
-          }
-          ?>
-
           <div class="u-form-group u-form-phone u-form-group-4">
             <label for="phone-01ec" class="u-label u-label-4">الهاتف</label>
             <input type="tel"
@@ -89,25 +63,11 @@
               placeholder="Enter your phone (e.g. +14155552675)" id="phone-01ec" name="phone"
               class="u-border-none u-grey-15 u-input u-input-rectangle u-radius-10" required="">
           </div>
-
-          <?php
-          if (isset($password_error)) {
-            echo $password_error;
-          }
-          ?>
-
           <div class="u-form-group u-form-phone u-form-group-4">
             <label for="password" class="u-label u-label-4">كلمة المرور</label>
             <input type="password" placeholder="أدخل كلمة مرور" id="password" name="password"
               class="u-border-none u-grey-15 u-input u-input-rectangle u-radius-10" required="">
           </div>
-
-          <?php
-          if (isset($gender_error)) {
-            echo $gender_error;
-          }
-          ?>
-
           <div class="u-form-group u-form-input-layout-horizontal u-form-radiobutton u-form-group-5">
             <label class="u-label">Radios</label>
             <div class="u-form-radio-button-wrapper">
@@ -151,7 +111,7 @@
           </div>
           <p class="u-form-group u-form-text u-text u-text-1">
             <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-base u-btn-1"
-              data-href="login.php"> لدى حساب بالفعل</a>
+              data-href="login.html"> لدى حساب بالفعل</a>
           </p>
           <div class="u-align-right u-form-group u-form-submit">
             <a href="#"
