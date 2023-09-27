@@ -144,7 +144,8 @@
     margin-left: 0;
     margin-right: 0;
   }
-}@font-face {
+}
+/* @font-face {
   font-family: 'GE_SS_Two_Bold_1';
   font-style: normal;
   font-weight: 400;
@@ -154,4 +155,4 @@
   font-style: normal;
   font-weight: 400;
   src: url(../fonts/GESSTwoLight1.otf);
-}
+} */
