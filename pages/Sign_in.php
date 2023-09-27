@@ -151,7 +151,7 @@
           </div>
           <p class="u-form-group u-form-text u-text u-text-1">
             <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-base u-btn-1"
-              data-href="Login.html"> لدى حساب بالفعل</a>
+              data-href="login.php"> لدى حساب بالفعل</a>
           </p>
           <div class="u-align-right u-form-group u-form-submit">
             <a href="#"
