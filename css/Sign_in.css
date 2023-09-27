@@ -126,10 +126,10 @@
   font-family: 'GE_SS_Two_Bold_1';
   font-style: normal;
   font-weight: 400;
-  src: url(fonts/GE_SS_Two_Bold_1.otf);
+  src: url(../fonts/GE_SS_Two_Bold_1.otf);
 }@font-face {
   font-family: 'GESSTwoLight1';
   font-style: normal;
   font-weight: 400;
-  src: url(fonts/GESSTwoLight1.otf);
+  src: url(../fonts/GESSTwoLight1.otf);
 }
