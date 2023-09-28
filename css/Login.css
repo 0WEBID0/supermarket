@@ -36,10 +36,14 @@
 
 .u-section-1 .u-label-1 {
   font-size: 1.125rem;
+  text-align: center !important;
+    display: block !important;
 }
 
 .u-section-1 .u-label-2 {
   font-size: 1.125rem;
+  text-align: center !important;
+    display: block !important;
 }
 
 .u-section-1 .u-form-group-3 {
@@ -145,7 +149,7 @@
     margin-right: 0;
   }
 }
-/* @font-face {
+/* }@font-face {
   font-family: 'GE_SS_Two_Bold_1';
   font-style: normal;
   font-weight: 400;
