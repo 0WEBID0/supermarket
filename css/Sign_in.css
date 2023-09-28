@@ -70,7 +70,6 @@
 
   .u-section-1 .u-form-1 {
     margin-left: 430px;
-    border-radius: 40px !important;
   }
 
   .u-section-1 .u-form-group-4 {
@@ -124,7 +123,7 @@
     margin-left: 121px;
   }
 }
-/* }@font-face {
+/* @font-face {
   font-family: 'GE_SS_Two_Bold_1';
   font-style: normal;
   font-weight: 400;
